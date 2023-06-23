@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Suggestion Form</title>
+    <link rel="stylesheet" type="text/css" href="sugg.css">
+</head>
+
+<body>
+    <h1> <a href="home.html" style="text-decoration: none;">
+            <div class="logo">
+                Water Waste Managment</div>
+        </a> </h1>
+    <div class="topnav">
+        <a class="active" href="solution.html">Solution</a>
+        <a href="home.html">Problem</a>
+        <a href="contact.html">Contact</a>
+        <div class="topnav-right">
+            <a href="form.html">Report</a>
+            <a href="sugg.html">Suggestion</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Suggestion Form</h1>
+        <form id="suggestion-form" action="feedback2.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Regestration No:</label>
+            <input type="text" id="text" name="text" placeholder="Enter your Regestration No" required>
+            <label for="comments">Suggestion:</label>
+            <textarea id="comments" name="comments" rows="5" placeholder="Enter your Suggestion"></textarea>
+
+            <center><input type="submit" value="Submit"></center>
+        </form>
+    </div>
+</body>
+
+</html>
